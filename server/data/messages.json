@@ -3,5 +3,20 @@
     "id": "SJKhIAKYB",
     "from": "system",
     "text": "Welcome!"
+  },
+  {
+    "id": "S1NMuxeU_",
+    "from": "alice",
+    "text": "alice"
+  },
+  {
+    "id": "Bk-NdexUd",
+    "from": "bob",
+    "text": "the fuck"
+  },
+  {
+    "id": "BJSHXWlId",
+    "from": "alice",
+    "text": "hihi"
   }
 ]
