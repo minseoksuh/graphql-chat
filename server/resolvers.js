@@ -30,7 +30,9 @@ const Mutation = {
 
 const Subscription = {
   messageAdded: {
-    subscribe: () => {
+    subscribe: (_root, { input }, { userId }) => {
+      requireAuth(userId);
+      console.log({ userId });
       return pubSub.asyncIterator(MESSAGE_ADDED);
     },
   },
